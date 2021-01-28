@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: black;
 }
 
 #header-container{
@@ -10,4 +11,5 @@ body{
     position: absolute;
     left: 0;
     top: 0;
+    background-color: white;
 }
