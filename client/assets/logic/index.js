@@ -5,4 +5,7 @@ TweenLite.to("#header-container", 1, { scaleY: 1, transformOrigin: "center cente
 TweenLite.to("body", 1, { backgroundColor: "white", delay: 1 });
 
 TweenLite.to("#top-bar", 0, { y: "-120px", opacity: 0 })
+TweenLite.to("#bottom-bar", 0, { y: "-240px", opacity: 0 })
+
 TweenLite.to("#top-bar", 0.5, { y: 0, opacity: 1, delay: 1.5, ease: "elastic.out(1, 0.5)" })
+TweenLite.to("#bottom-bar", 0.5, { y: 0, opacity: 1, delay: 1.5, ease: "elastic.out(1, 0.5)" })
