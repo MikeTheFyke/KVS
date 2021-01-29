@@ -13,3 +13,21 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+.header-bars{
+    background-color: black;
+    height: 5%;
+    width: 50%;
+}
+
+#top-bar{
+    position: absolute;
+    top: 100px;
+    margin: 0px 25%;
+}
+
+#bottom-bar{
+    position: absolute;
+    bottom: 100px;
+    margin: 0px 25%;
+}
