@@ -32,14 +32,21 @@ body{
     margin: 0px 25%;
 }
 
-#kenny-title{
-    color: red;
+.header-text{
     font-family: 'Montserrat';
     font-size: 30px;
 }
 
+#kenny-title{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: red;
+}
+
 #spenny-title{
+    position: absolute;
+    top: 35%;
+    right: 25%;
     color: blue;
-    font-family: 'Montserrat';
-    font-size: 30px;
 }
