@@ -31,3 +31,15 @@ body{
     bottom: 120px;
     margin: 0px 25%;
 }
+
+#kenny-title{
+    color: red;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+#spenny-title{
+    color: blue;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
