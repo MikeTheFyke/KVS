@@ -51,27 +51,34 @@ body{
     color: blue;
 }
 
+#vs-container{
+    position: absolute;
+    top: 133px;
+    left: 46%;
+    width: 10vh;
+    height: 4.5vh;
+}
+
 .vs-bars{
-    width: 10%;
-    height: 2%;
-    margin: 0 45%;
+    width: 100%;
+    height: 5%;
     background-color: black;
 }
 
 #vs-top{
     position: absolute;
-    top: 130px;
+    top: 0px;
 }
 
 #vs-bottom{
     position: absolute;
-    bottom: 129px;
+    bottom: 5%;
 }
 
 #vs-text{
     position: absolute;
-    top: 134px;
-    margin: 0 47.5%;
+    top: 0px;
+    margin: 0 25%;
     font-family: 'Montserrat';
     font-size: 30px;
 }
