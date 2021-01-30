@@ -21,11 +21,15 @@ body{
 }
 
 #black-star-left{
-
+    position: absolute;
+    top: 125px;
+    left: 19.5vw;
 }
 
 #black-star-right{
-
+    position: absolute;
+    top: 125px;
+    right: 19.5vw;
 }
 
 #yellow-star{
