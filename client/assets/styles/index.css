@@ -14,6 +14,20 @@ body{
     background-size: 100% 100%;
 }
 
+.black-star{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+#black-star-left{
+
+}
+
+#black-star-right{
+
+}
+
 #yellow-star{
     position: absolute;
     top: 65px;
