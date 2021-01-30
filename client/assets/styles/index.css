@@ -17,9 +17,9 @@ body{
 #yellow-star{
     position: absolute;
     top: 65px;
-    left: 40%;
-    width: 20vw;
-    height: 20vw;
+    left: 42%;
+    width: 150px;
+    height: 150px;
     background-color: #ccb20c;
 }
 
