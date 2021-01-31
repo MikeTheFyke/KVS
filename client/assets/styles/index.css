@@ -38,7 +38,9 @@ body{
     left: 42%;
     width: 150px;
     height: 150px;
-    background-color: #ccb20c;
+    background-image: url("../images/KVS-YellowStar.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .header-bars{
