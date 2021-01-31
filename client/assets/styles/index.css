@@ -113,3 +113,14 @@ body{
     font-family: 'Montserrat';
     font-size: 30px;
 }
+
+#kenny-head{
+    position: absolute;
+    top: 20px;
+    left: 2%;
+    height: 225px;
+    width: 225px;
+    background-image: url("../images/KVS-Kenny-Head.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
