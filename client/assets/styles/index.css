@@ -25,21 +25,21 @@ body{
 #black-star-left{
     position: absolute;
     top: 125px;
-    left: 19.5vw;
+    left: 19vw;
 }
 
 #black-star-right{
     position: absolute;
     top: 125px;
-    right: 19.5vw;
+    right: 19vw;
 }
 
 #yellow-star{
     position: absolute;
-    top: 133px;
-    left: 46%;
-    width: 150px;
-    height: 150px;
+    top: 24%;
+    left: 41vw;
+    width: 18vw;
+    height: 18vw;
     background-image: url("../images/KVS-YellowStar.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -71,14 +71,14 @@ body{
 #kenny-title{
     position: absolute;
     top: 35%;
-    left: 25%;
+    left: 28%;
     color: red;
 }
 
 #spenny-title{
     position: absolute;
     top: 35%;
-    right: 25%;
+    right: 28%;
     color: blue;
 }
 
