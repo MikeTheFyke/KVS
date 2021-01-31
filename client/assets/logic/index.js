@@ -22,3 +22,5 @@ TweenLite.to("#top-bar", 0.25, { y: 0, delay: 1.75, ease: "elastic.out(1, 0.5)" 
 TweenLite.to("#kenny-title", 0.75, { y: 0, opacity: 1, delay: 1.75, rotation: 0, ease: "elastic.out(1, 0.5)" })
 TweenLite.to("#spenny-title", 0.75, { y: 0, opacity: 1, delay: 1.75, rotation: 0, ease: "elastic.out(1, 0.5)" })
 TweenLite.to("#vs-container", 0.5, { y: 0, opacity: 1, ease: "elastic.out(1, 0.5)", delay: 2.25 });
+
+TweenLite.to("#header-container", 1, { y:0 , delay: 3})
