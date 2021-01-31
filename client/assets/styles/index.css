@@ -15,7 +15,9 @@ body{
 }
 
 .black-star{
-    background-color: black;
+    background-image: url("../images/KVS-BlackStar.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 50px;
     height: 50px;
 }
@@ -34,8 +36,8 @@ body{
 
 #yellow-star{
     position: absolute;
-    top: 65px;
-    left: 42%;
+    top: 133px;
+    left: 46%;
     width: 150px;
     height: 150px;
     background-image: url("../images/KVS-YellowStar.png");
