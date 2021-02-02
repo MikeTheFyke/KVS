@@ -32,4 +32,10 @@ TweenLite.to("#vs-container", 0.5, { y: 0, opacity: 1, ease: "elastic.out(1, 0.5
 TweenLite.to("#header-container", 1, { y:0 , delay: 3})
 
 TweenLite.to("#header-links", 0, { opacity: 1, delay: 3 })
-TweenLite.to("#header-link-1", 1, { y: "20px", opacity: 1, delay: 3 })
+TweenLite.to("#header-link-1", 0.5, { y: "20px", opacity: 1, delay: 3 })
+TweenLite.to("#header-link-2", 0.5, { y: "20px", opacity: 1, delay: 3.25 })
+TweenLite.to("#header-link-3", 0.5, { y: "20px", opacity: 1, delay: 3.5 })
+TweenLite.to("#header-link-4", 0.5, { y: "20px", opacity: 1, delay: 3.75 })
+TweenLite.to("#header-link-5", 0.5, { y: "20px", opacity: 1, delay: 4 })
+TweenLite.to("#header-link-6", 0.5, { y: "20px", opacity: 1, delay: 4.25 })
+TweenLite.to("#header-link-7", 0.5, { y: "20px", opacity: 1, delay: 4.5 })
