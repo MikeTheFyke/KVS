@@ -1,5 +1,9 @@
 // var tl = new TimelineMax();
 
+// var TweenLite = require("gsap")
+
+// import Tweenlite from 'gsap';
+
 TweenLite.to("#header-container", 0, { y: "20vw", scaleY: 0 });
 TweenLite.to("#vs-container", 0, { y: "-120px", opacity: 0 });
 TweenLite.to("#yellow-star", 0, { y: "-120px", opacity: 0 });
