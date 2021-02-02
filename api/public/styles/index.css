@@ -36,10 +36,10 @@ body{
 
 #yellow-star{
     position: absolute;
-    top: 24%;
-    left: 41vw;
-    width: 18vw;
-    height: 18vw;
+    top: 20px;
+    left: 40vw;
+    width: 250px;
+    height: 250px;
     background-image: url("../images/KVS-YellowStar.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
