@@ -8,6 +8,8 @@ TweenLite.to("#header-container", 0, { y: "20vw", scaleY: 0 });
 TweenLite.to("#vs-container", 0, { y: "-120px", opacity: 0 });
 TweenLite.to("#yellow-star", 0, { y: "-120px", opacity: 0 });
 TweenLite.to(".black-star", 0, { y: "-120px", opacity: 0 });
+TweenLite.to("#header-links", 0, { y: "-20px", opacity: 0 })
+
 TweenLite.to("#header-container", 1, { scaleY: 1, transformOrigin: "center center", delay: 1 });
 TweenLite.to("body", 1, { backgroundColor: "white", delay: 1 });
 
@@ -28,3 +30,5 @@ TweenLite.to("#spenny-title", 0.75, { y: 0, opacity: 1, delay: 1.75, rotation: 0
 TweenLite.to("#vs-container", 0.5, { y: 0, opacity: 1, ease: "elastic.out(1, 0.5)", delay: 2.25 });
 
 TweenLite.to("#header-container", 1, { y:0 , delay: 3})
+
+TweenLite.to("#header-links", 1, { y: 0, opacity: 1, delay: 3 })
