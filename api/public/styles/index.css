@@ -148,6 +148,7 @@ body{
 
 .header-link{
     width: 10%;
+    min-width: 65px;
     height: 20px;
     margin: 0 10px;
     color: black;
@@ -159,4 +160,5 @@ body{
     border-bottom-left-radius: 15px;
     text-decoration: none;
     text-align: center;
+    overflow: hidden;
 }
