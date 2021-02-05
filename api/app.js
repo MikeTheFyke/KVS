@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const fs = require('fs');
+// const fs = require('fs');
 
 // var TweenLite = require("gsap")
 // import Tweenlite from 'gsap';
@@ -9,7 +9,7 @@ const fs = require('fs');
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public'));
 
-var KVSData = require ('/data/kvs.json');
+const KVSData = require ('./public/data/kvs.json');
 
 app.get('/', (req, res) => {
   res.render("home")
@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 //     })
 // })
 
-repos.get('/data', (req, res) => {
+app.get('/data', (req, res) => {
   res.json(KVSData);
 })
 
