@@ -1,9 +1,4 @@
-// var tl = new TimelineMax();
-
-// var TweenLite = require("gsap")
-
-// import Tweenlite from 'gsap';
-
+// Loading Gsap
 TweenLite.to("#header-container", 0, { y: "20vw", scaleY: 0 });
 TweenLite.to("#vs-container", 0, { y: "-120px", opacity: 0 });
 TweenLite.to("#yellow-star", 0, { y: "-120px", opacity: 0 });
@@ -39,3 +34,10 @@ TweenLite.to("#header-link-4", 0.5, { y: "20px", opacity: 1, delay: 3.75 })
 TweenLite.to("#header-link-5", 0.5, { y: "20px", opacity: 1, delay: 4 })
 TweenLite.to("#header-link-6", 0.5, { y: "20px", opacity: 1, delay: 4.25 })
 TweenLite.to("#header-link-7", 0.5, { y: "20px", opacity: 1, delay: 4.5 })
+// ----------------------------------------------------------------------->
+
+// On hover animation
+
+document.getElementById("header-link-1").addEventListener('hover', function () => {
+    TweenLite.to("header-link-1", 0.5, { scaleY: 2})
+})
