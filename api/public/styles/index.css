@@ -169,3 +169,9 @@ body{
     font-size: 13px;
   }
 }
+
+#KVS-data{
+    position: absolute;
+    top: 350px;
+    left: 0;
+}
