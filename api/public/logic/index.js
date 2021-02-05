@@ -38,6 +38,6 @@ TweenLite.to("#header-link-7", 0.5, { y: "20px", opacity: 1, delay: 4.5 })
 
 // On hover animation
 
-document.getElementById("header-link-1").addEventListener('hover', function () => {
-    TweenLite.to("header-link-1", 0.5, { scaleY: 2})
+document.getElementById("header-link-1").addEventListener('mouseover', function () {
+    TweenLite.to("#header-link-1", 0.5, { y: "20px", scaleY: 2, transformOrigin: "top center"})
 })
