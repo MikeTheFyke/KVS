@@ -39,11 +39,12 @@
 
 <div id="KVS-data">
     <% for(var x = 0; x < KVSData.length; x ++){ %>
-    <p><%= KVSData[x].title %></p>
-    <p>Season : <%= KVSData[x].season %> Episode : <%= KVSData[x].episode %></p>
-    <p>Winner : <%= KVSData[x].winner %></p>
-    <p><%= KVSData[x].humiliation %></p>
+    <p class="KVS-Title"><%= KVSData[x].title %></p>
+    <p class="KVS-Season">Season : <%= KVSData[x].season %> Episode : <%= KVSData[x].episode %></p>
+    <p class="KVS-Winner">Winner : <%= KVSData[x].winner %></p>
+    <p class="KVS-Humiliation"><%= KVSData[x].humiliation %></p>
     <% } %>
+    
 </div>
 
 </body>
