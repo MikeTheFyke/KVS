@@ -37,11 +37,24 @@ TweenLite.to("#header-link-7", 0.5, { y: "20px", opacity: 1, delay: 4.5 })
 // ----------------------------------------------------------------------->
 
 // On hover animation
-
-document.getElementById("header-link-1").addEventListener('mouseover', function () {
-    TweenLite.to("#header-link-1", 1, { scaleY: 2, transformOrigin: "top"})
-})
-
-document.getElementById("header-link-1").addEventListener('mouseout', function () {
-    TweenLite.to("#header-link-1", 1, { scaleY: 1, transformOrigin: "bottom" })
-})
+// Header Link 1
+document.getElementById("header-link-1").addEventListener('mouseover', function () { TweenLite.to("#header-link-1", 1, { scaleY: 2, transformOrigin: "top"}) })
+document.getElementById("header-link-1").addEventListener('mouseout', function () { TweenLite.to("#header-link-1", 1, { scaleY: 1, transformOrigin: "bottom" }) })
+// Header Link 2
+document.getElementById("header-link-2").addEventListener('mouseover', function () { TweenLite.to("#header-link-2", 1, { scaleY: 2, transformOrigin: "top"}) })
+document.getElementById("header-link-2").addEventListener('mouseout', function () { TweenLite.to("#header-link-2", 1, { scaleY: 1, transformOrigin: "bottom" }) })
+// Header Link 3
+document.getElementById("header-link-3").addEventListener('mouseover', function () { TweenLite.to("#header-link-3", 1, { scaleY: 2, transformOrigin: "top"}) })
+document.getElementById("header-link-3").addEventListener('mouseout', function () { TweenLite.to("#header-link-3", 1, { scaleY: 1, transformOrigin: "bottom" }) })
+// Header Link 4
+document.getElementById("header-link-4").addEventListener('mouseover', function () { TweenLite.to("#header-link-4", 1, { scaleY: 2, transformOrigin: "top"}) })
+document.getElementById("header-link-4").addEventListener('mouseout', function () { TweenLite.to("#header-link-4", 1, { scaleY: 1, transformOrigin: "bottom" }) })
+// Header Link 5
+document.getElementById("header-link-5").addEventListener('mouseover', function () { TweenLite.to("#header-link-5", 1, { scaleY: 2, transformOrigin: "top"}) })
+document.getElementById("header-link-5").addEventListener('mouseout', function () { TweenLite.to("#header-link-5", 1, { scaleY: 1, transformOrigin: "bottom" }) })
+// Header Link 6
+document.getElementById("header-link-6").addEventListener('mouseover', function () { TweenLite.to("#header-link-6", 1, { scaleY: 2, transformOrigin: "top"}) })
+document.getElementById("header-link-6").addEventListener('mouseout', function () { TweenLite.to("#header-link-6", 1, { scaleY: 1, transformOrigin: "bottom" }) })
+// Header Link 7
+document.getElementById("header-link-7").addEventListener('mouseover', function () { TweenLite.to("#header-link-7", 1, { scaleY: 2, transformOrigin: "top"}) })
+document.getElementById("header-link-7").addEventListener('mouseout', function () { TweenLite.to("#header-link-7", 1, { scaleY: 1, transformOrigin: "bottom" }) })
