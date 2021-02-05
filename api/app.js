@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 const KVSData = require ('./public/data/kvs.json');
 
 app.get('/', (req, res) => {
-  res.render("home")
+  res.render("home", { KVSData: KVSData })
 })
 
 app.get('/data', (req, res) => {
