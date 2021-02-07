@@ -181,8 +181,11 @@ body{
     height: 150px;
     border-style: solid;
     border-color: black;
+    border-left-color: white;
     margin-bottom: 10px;
     padding-left: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 15px;
 }
 
 .KVS-Title{
