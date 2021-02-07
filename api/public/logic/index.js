@@ -4,6 +4,7 @@ TweenLite.to("#vs-container", 0, { y: "-120px", opacity: 0 });
 TweenLite.to("#yellow-star", 0, { y: "-120px", opacity: 0 });
 TweenLite.to(".black-star", 0, { y: "-120px", opacity: 0 });
 TweenLite.to("#header-links", 0, { y: "-22px", opacity: 0 })
+TweenLite.to("#KVS-data", 0, { opacity: 0 })
 
 TweenLite.to("#header-container", 1, { scaleY: 1, transformOrigin: "center center", delay: 1 });
 TweenLite.to("body", 1, { backgroundColor: "white", delay: 1 });
