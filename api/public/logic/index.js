@@ -37,6 +37,7 @@ TweenLite.to("#header-link-6", 0.5, { y: "20px", opacity: 1, delay: 4.25 })
 TweenLite.to("#header-link-7", 0.5, { y: "20px", opacity: 1, delay: 4.5 })
 
 TweenLite.to("#KVS-data", 0.5, { opacity: 1, delay: 5 })
+// TweenLite.to(".KVS-Title", 0.5, { x: "100px", delay: 6 })
 // ----------------------------------------------------------------------->
 
 // On hover animation
