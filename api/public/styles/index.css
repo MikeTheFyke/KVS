@@ -176,6 +176,14 @@ body{
     left: 0;
 }
 
+.KVS-episode-data{
+    width: 80%;
+    height: 150px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
 .KVS-Title{
     background-color: yellow;
     width: 350px;
